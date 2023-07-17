@@ -71,8 +71,8 @@ int main(void){
 | r3 c1 | r3 c2 | r3 c3 |
 
 <!--Checklist-->
-[ ] task 1
+- [ ] task 1
 
-[ ] task 2
+- [ ] task 2
 
-[x] task 3
+- [x] task 3
