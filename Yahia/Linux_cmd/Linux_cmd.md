@@ -58,3 +58,12 @@ If I want to edit `file1.txt` for example, I will use the command `nano file1.tx
 
 To make a new directory use the `mkdir` command, and it works just like the touch command. So for example if I want to create a directory called "myDir" I would just type `mkdir myDir`
 
+### Removing Files
+
+To remove a file you can use the `rm` command.
+
+![](rm.png)
+
+To remove a Directory you can use the same command but you have to give it the `-r` flag to make it delete the directory and all the files inside it.
+
+![](rm_r.png)
