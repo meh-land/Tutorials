@@ -85,3 +85,15 @@ You can also use the `mv` command to rename a file.
 If I want to move a file from one location to another but I want it to have a different name at the new location, I can do this using one command.
 
 ![](mv_rename.png)
+
+### Copying Files
+
+To copy files you can use the `cp` command.
+
+![](cp.png)
+
+### Combine Copying and Renaming
+
+To copy a file from one location to another but give it a different name at the new location, we use the same trick we used for the `mv` command.
+
+![](cp_rename.png)
