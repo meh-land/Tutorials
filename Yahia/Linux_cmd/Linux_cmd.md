@@ -127,3 +127,48 @@ The wild card is not just useful for deletion, it can be used with any command s
 ![](mv_wild_card.png)
 
 > AGAIN....DO NOT USE THE WILD CARD CARELESSLY
+
+## Package Management
+
+Package management is just a fancy expression for "app store". In windows you can grab a random exe file from the internet and run it, this way of installing programs is messy and dangerous. So in linux we have a program whose job is to manage your programs, this program is called the package manager. You can use the package manager to install, uninstall and update all your programs.
+
+For debian based distros, the package manager is `apt` which stands for "Advanced Package Tool". One of its main advantages is its easy syntax, to see it let us take vim as an example:
+
+* To install vim
+```bash
+sudo apt install vim
+```
+
+* To remove vim
+```bash
+sudo apt remove vim
+```
+
+You can also use apt to update all your programs. This  is done using two commands.
+```bash
+sudo apt update
+sudo apt upgrade
+```
+To understand the role of each command we must first understand how apt gets its packages.
+
+Every distro has its own servers and they store their packages on those servers, so when you want to install a new program or update your system, apt fetches the latest versions of the desired programs and installs them locally.
+
+So the first command `apt update` is used to let apt update its database and synch it to the one stored on the servers. And the second command `apt upgrade` is used to actually upgrade the local programs.
+
+Note that `sudo` is just used to give the user admin privileges and has no actual relation to `apt` itself, `sudo` should be used whenever you need to elevate your privileges regardless of the command you are running.
+
+There are other `apt` commands that don't need root privileges but can be useful, for example:
+
+* To search for a program
+```bash
+apt search vim
+```
+
+* To list all the installed packages
+```bash
+apt list
+```
+
+---
+
+> That's pretty much everything you need to know
