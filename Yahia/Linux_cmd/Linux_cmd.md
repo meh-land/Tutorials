@@ -1,6 +1,13 @@
 # Welcome to TUX
 
 ![tux](tux.jpg)
+## What is a Distro
+
+![](distro_tree.png)
+
+There are many distributions of Linux but for our case we only care about those that are derived from debian (which is still a lot of distros).
+
+You can know that a distro is derived from debian by simply looking at its package manager (we will talk more about package management later), if the distro uses `apt` then it is derived from debian.
 
 ## File system tree
 
@@ -35,3 +42,12 @@ Notice that `man` is just another regular command, so if you want more info on `
 
 ![Change Directory](change_directory.png)
 
+### creating Files
+
+You can create a file by using the `touch` command. This will create an empty file.
+
+![](touch.png)
+
+### Editing Files
+
+Now that you have created your files you want to edit them. You can do so using a text editor. `nano` is the simplest terminal text editor found on most linux systems.
