@@ -67,3 +67,21 @@ To remove a file you can use the `rm` command.
 To remove a Directory you can use the same command but you have to give it the `-r` flag to make it delete the directory and all the files inside it.
 
 ![](rm_r.png)
+
+### Moving Files
+
+To move a file from one location to another use the `mv` command.
+
+![](mv.png)
+
+### Renaming Files
+
+You can also use the `mv` command to rename a file.
+
+![](rename.png)
+
+### Combine Moving and Renaming
+
+If I want to move a file from one location to another but I want it to have a different name at the new location, I can do this using one command.
+
+![](mv_rename.png)
