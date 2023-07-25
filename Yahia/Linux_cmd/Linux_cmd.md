@@ -97,3 +97,33 @@ To copy files you can use the `cp` command.
 To copy a file from one location to another but give it a different name at the new location, we use the same trick we used for the `mv` command.
 
 ![](cp_rename.png)
+
+### Wild Card
+
+Imagine that I have 3 files (file1.txt, file2.txt and file3.txt) and I want to delete them. I can do this in three ways
+
+1. Delete them one after the other
+    ```bash
+    rm file1.txt
+    rm file2.txt
+    rm file3.txt
+    ```
+1. Delete them all in the same command by writing their names
+    ```bash
+    rm file1.txt file2.txt file3.txt
+    ```
+1. I can tell Linux to delete all files that match the pattern "file(...).txt", this is done using an asterisk "*". So the command becomes like this
+    ```bash
+    rm file*.txt
+    ```
+
+The asterisk is known as the "Wild Card" because any string will match it, so in our previous example if we had a file named "file_A.txt" it will be deleted too, so it is very dangerous to use the wild card carelessly.
+
+Using the wild card is usually acceptable when you want to operate on all files that have the same extension, so for example if I want to delete all txt files from  myDir I would use the following command.
+```bash
+rm myDir/*.txt
+```
+The wild card is not just useful for deletion, it can be used with any command such as `mv`. Here I moved all python files to myDir
+![](mv_wild_card.png)
+
+> AGAIN....DO NOT USE THE WILD CARD CARELESSLY
