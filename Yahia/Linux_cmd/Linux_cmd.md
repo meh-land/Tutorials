@@ -51,3 +51,10 @@ You can create a file by using the `touch` command. This will create an empty fi
 ### Editing Files
 
 Now that you have created your files you want to edit them. You can do so using a text editor. `nano` is the simplest terminal text editor found on most linux systems.
+
+If I want to edit `file1.txt` for example, I will use the command `nano file1.txt`. Note that if you use the command `nano file2.txt` and `file2.txt` does not exist, nano will create it for you and you can start editing it right away, so if you want to create a file and edit it you don't need to use the `touch` command at all.
+
+### Making Directories
+
+To make a new directory use the `mkdir` command, and it works just like the touch command. So for example if I want to create a directory called "myDir" I would just type `mkdir myDir`
+
