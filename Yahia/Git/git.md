@@ -52,6 +52,8 @@ ssh-add ~/.ssh/your_private_key
 
 5. Add your _public_ ssh key to your remote git provider (Github for example). This step depends on your provider but you can generally find an option for "ssh keys" in your profile's settings.
 
+6. To use ssh authentication from now on, you should use the ssh url of any repository instead of the https url.
+
 # Start Working With Git
 Here we discuss the various git commands.
 
