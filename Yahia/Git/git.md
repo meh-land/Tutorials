@@ -115,6 +115,8 @@ This command will clone the remote repository into the current directory, creati
 ```
 git push origin
 ```
+## Setup gitignore
+Some files should not be tracked by git at all so you might want git to ignore them. To achieve this, you create a file inside your git repository and name it `.gitignore` and simply write in it the names of all the files that you want git to ignore.
 
 ## Browsing the History
 ### See Previous Commits
