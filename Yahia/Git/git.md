@@ -31,7 +31,7 @@ The commands used in this section will work fine for most unix-like operating sy
 
 1. See if you already have any ssh keys
 ```
-ls -la 
+ls -la ~/.ssh
 ```
 If you see any files that have the same name but one of them ends in ".pub" then you already have ssh keys that are generated, you can use them for git, but it is generally bad practice to reuse ssh keys.
 
