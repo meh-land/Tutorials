@@ -11,3 +11,35 @@ catkin_make
 ```
 Then source `my_ws/devel/setup.bash`
 
+# Create a ROS Package
+
+```bash
+cd my_ws/src
+
+catkin_create_pkg my_pkg_name rospy [other dependencies go here]
+```
+
+An optional but useful step is to clean up the file `my_ws/src/my_pkg/package.xml`. Then you must build the package
+```bash
+cd my_ws
+
+catkin_make
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
