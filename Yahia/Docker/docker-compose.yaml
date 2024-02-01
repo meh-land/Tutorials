@@ -1,0 +1,8 @@
+version: "2.21"
+services:
+  ubu:
+    image: ubuntu
+  deb:
+    image: debian
+    ports:
+      - 80:80
