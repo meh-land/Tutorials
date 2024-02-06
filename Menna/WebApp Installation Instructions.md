@@ -123,7 +123,7 @@ npm -v
 
 1. Log in to MySQL as an administrative user:
 ```
-mysql -u root -p
+sudo mysql
 ```
 2. Create a new MySQL user with a username and password. Replace new_username and new_password with the desired username and password for the new user:
 ```
