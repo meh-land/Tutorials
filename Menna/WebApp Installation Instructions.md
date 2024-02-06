@@ -42,7 +42,7 @@ sudo mysql_secure_installation
    First, you need to install the required build dependencies. Open a terminal and run the following command:
    ```
    sudo apt update
-   sudo apt install -y build-essential libxml2-dev libsqlite3-dev curl libcurl4-openssl-dev pkg-config libssl-dev libonig-dev libzip-dev zlib1g-dev libpng-dev libjpeg-dev libfreetype6-dev libgmp-dev libpq-dev libicu-dev libbz2-dev libxpm-dev libwebp-dev libtidy-dev
+   sudo apt install -y build-essential libxml2-dev libsqlite3-dev curl libcurl4-openssl-dev pkg-config libssl-dev libonig-dev libzip-dev zlib1g-dev libpng-dev libjpeg-dev libfreetype6-dev libgmp-dev libpq-dev libicu-dev libbz2-dev libxpm-dev libwebp-dev libtidy-dev libxslt1-dev
    ```
 2. Download PHP Source Code:
    ```
@@ -95,7 +95,7 @@ sudo apt install curl
 
 2. Install nvm (Node Version Manager):
 ```
-curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.38.1/install.sh | bash
+curl curl https://raw.githubusercontent.com/creationix/nvm/master/install.sh | bash
 source ~/.bashrc
 ```
 
