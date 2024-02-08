@@ -153,6 +153,11 @@ php artisan serve --host=machine_IP
 git clone https://github.com/meh-land/Dashboard.git
 cd Dashboard
 npm install
+```
+* add your local IP address in .env file
+  ![image](https://github.com/meh-land/Tutorials/assets/79084467/cc6fe468-6648-41b7-be05-c1c60728b15f)
+
+```
 npm start
 ```
 
