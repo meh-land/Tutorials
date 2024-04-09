@@ -141,7 +141,7 @@ cp .env.example .env
 ```
 ```
 https://github.com/meh-land/Dashboard-Backend.git
-cd GP_laravel
+cd Dashboard-Backend
 composer install
 cp .env.example .env
 ```
@@ -155,10 +155,10 @@ php artisan migrate
 php artisan passport:install
 php artisan serve --host=machine_IP
 ```
-# Step 9:  Clone Frontend Repo. : [Dashboard](https://github.com/meh-land/Dashboard.git)
+# Step 9:  Clone Frontend Repo. : [web app]([https://github.com/meh-land/Dashboard.git](https://github.com/meh-land/web_App))
 ```
-git clone https://github.com/meh-land/Dashboard.git
-cd Dashboard
+git clone https://github.com/meh-land/web_App.git
+cd web_App
 npm install
 ```
 * add your local IP address in .env file
