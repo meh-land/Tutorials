@@ -132,9 +132,15 @@ GRANT ALL PRIVILEGES ON *.* TO 'username'@'localhost';
 FLUSH PRIVILEGES;
 EXIT;
 ```
-# Step 8:  Clone Backend Repo. : [GP_laravel](https://github.com/meh-land/GP_laravel.git)
+# Step 8:  Clone Backend Repo. : [GP_laravel](https://github.com/meh-land/GP_laravel.git) [Dashboard Backend](https://github.com/meh-land/Dashboard-Backend.git)
 ```
 git clone https://github.com/meh-land/GP_laravel.git
+cd GP_laravel
+composer install
+cp .env.example .env
+```
+```
+https://github.com/meh-land/Dashboard-Backend.git
 cd GP_laravel
 composer install
 cp .env.example .env
