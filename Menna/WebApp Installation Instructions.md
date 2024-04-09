@@ -161,9 +161,9 @@ git clone https://github.com/meh-land/web_App.git
 cd web_App
 npm install
 ```
-* add your local IP address in .env file
-  ![image](https://github.com/meh-land/Tutorials/assets/79084467/cc6fe468-6648-41b7-be05-c1c60728b15f)
-
+* add your local IP address and dashboard IP in .env file
+  ![image](https://github.com/meh-land/Tutorials/assets/79084467/469cc7d6-ef73-4e0c-98be-1a2dee1c7541)
+  
 ```
 npm start
 ```
