@@ -140,7 +140,7 @@ composer install
 cp .env.example .env
 ```
 ```
-https://github.com/meh-land/Dashboard-Backend.git
+git clone https://github.com/meh-land/Dashboard-Backend.git
 cd Dashboard-Backend
 composer install
 cp .env.example .env
